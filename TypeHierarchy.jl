@@ -34,6 +34,8 @@ person_info(p::Student) = println("$(p.name) is a Student with grade $(p.grade)"
 person_info(p::GroupLeader) = println("$(p.name) is a GroupLeader of $(p.group)")
 
 people = (adam, cameron, john)
+
+
 for person in people
     person_info(person)
 end
